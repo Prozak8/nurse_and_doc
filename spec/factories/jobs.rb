@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :job do
-    profession { "MyString" }
+    name { "MyString" }
   end
 end

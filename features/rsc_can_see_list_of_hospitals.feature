@@ -10,11 +10,6 @@ Feature: RSC Can See List of Hospitals
             | Hospital 1  | 
             | Hospital 2  |
 
-    Scenario: 
+    Scenario: See list of hospitals
         Given I am on the hospital page
-        Then I should see "Hospital 1" within the "card" section
-        Then stop
-        And I should not see "Hospital 3" within the "card" section
-
-
-
+        Then I should see "Hospital 1" within the "list-item" section
