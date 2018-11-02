@@ -1,5 +1,5 @@
 App.mainContent.style.visibility = "hidden";
-var modalContent = '<%= escape_javascript(render partial: 'new') %>'
+var modalContent = '<%= j(render partial: 'new') %>'
 
 App.tempContent.innerHTML = modalContent
 closeModalListener('cancel_modal')
