@@ -5,7 +5,7 @@ Feature: RSC Dashboard
 
     Background: Professions
         Given the following professions exist in the database
-            | Job               |
+            | title             |
             | Doctor            |
             | Nurse             |
             | Assistant Nurse   |
