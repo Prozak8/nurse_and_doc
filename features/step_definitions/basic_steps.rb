@@ -4,8 +4,9 @@ Then("I should see {string} within the {string} section") do |content, section|
     }  
 end
 
-Given("the following professions exist in the database") do |table|
-  table.hashes.each do |profession|
+Given("the following jobs exist in the database") do |table|
+  table.hashes.each do |job_hash|
+    profession = 
     create(:profession, profession)
   end
 end

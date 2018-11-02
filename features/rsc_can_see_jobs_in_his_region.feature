@@ -4,8 +4,8 @@ Feature: RSC Dashboard
     I would like to be able to see a list of jobs in my region.
 
     Background: Professions
-        Given the following professions exist in the database
-            | title             |
+        Given the following jobs exist in the database
+            | profession        |
             | Doctor            |
             | Nurse             |
             | Assistant Nurse   |
